@@ -33,6 +33,16 @@
   border-radius: 30px;
    
 }
+.home{
+  cursor: pointer;
+}
+.project-header{
+  cursor: pointer;
+}
+.about-header{
+  cursor: pointer;
+
+}
 .name{
   font-size: 50px;
   font-weight: 700;
@@ -49,6 +59,7 @@
   background-color: whitesmoke;
   border-radius: 5px;
 }
+
 .logos{
   display: flex;
   justify-content: center;
@@ -111,4 +122,10 @@
 }
 .title{
   font-weight: 700;
+}
+.intro{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 300px;
 }

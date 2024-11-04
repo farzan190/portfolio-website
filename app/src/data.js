@@ -1,8 +1,12 @@
+import pic from './assets/desktop-suggestions.png'
+import lift from './assets/lifts.jpeg'
+import port from './assets/portfolio.jpeg';
+
 
 export default [
 
   { 
-    picture:"./assets/1582274123139.jpg",
+    picture:pic,
     title:"Product Feedback App",
     description:" a user-friendly platform that empowers customers to submit feedback, suggest features, and vote on ideas. ",
     liveLink:"https://product-feedback-application-nine.vercel.app/",
@@ -10,18 +14,18 @@ export default [
   }
 ,
 { 
-  picture:"./assets/lifts.jpeg",
+  picture:lift,
   title:"Lift simulation",
-  description:"a user-friendly platform that empowers customers to submit feedback, suggest features, and vote on ideas.",
+  description:"Simulated a multi-floor lift system in VanillaJS, with dynamic lift responses based on real-time floor requests",
   liveLink:"https://lift-simulation-xi-eight.vercel.app/",
   githubLink:"https://github.com/farzan190/Lift-simulation",
 },
 { 
-  picture:"./assets/1582274123139.jpg",
+  picture:port,
   title:"Portfolio website",
   description:"a user-friendly platform that empowers customers to submit feedback, suggest features, and vote on ideas.",
   liveLink:"https://product-feedback-application-nine.vercel.app/",
-  githubLink:"https://github.com/farzan190/Product-feedback-Application",
+  githubLink:"https://github.com/farzan190/portfolio-website",
 }
 ,
 

@@ -1,12 +1,10 @@
 import data from './data.js'
 import { useState } from 'react';
-import picture from './assets/desktop-suggestions.png'
-import lift from './assets/lifts.jpeg'
 
-
-const Projects=({title,description,livelink,sourcecodelink})=>{
+const Projects=({picture,title,description,livelink,sourcecodelink})=>{
    
     return <div className='project'>
+      <div>{console.log(picture)}</div>
       <div className='project-image'> <img src={picture} className='project-picture'/></div>
      <div className='content'>
       <div className='title'>{title}</div>

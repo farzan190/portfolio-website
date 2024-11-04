@@ -1,8 +1,6 @@
 import { useState } from 'react';
 import './App.css';
-import github from "./assets/github-mark.png";
-import linkedin from "./assets/linkedin.png";
-import x from "./assets/twitter.png";
+
 import Homeies from './mainpage';
 import Projects from './projects';
 import About from './about';
@@ -32,10 +30,10 @@ const handleHome=()=>{
   <div className="main-page">
     <div className="header">
       <div className='home' onClick={()=>handleHome()}>Home</div>
-      <div onClick={()=>handleProjects()}>Projects</div> 
-      <div onClick={()=>handleAbout()}>About</div> 
+      <div className='project-header' onClick={()=>handleProjects()}>Projects</div> 
+      <div className='about-header' onClick={()=>handleAbout()}>About</div> 
     </div>
-     <div>{ home && <div>{<Homeies/>}</div>}  {projects && <div className='All-projects' >{    data.map((item)=><Projects picture={item.picture} title={item.title} description={item.description} livelink={item.liveLink} sourcecodelink={item.githubLink}/>)      }</div>}  {about && <div><About/></div>}  </div>
+     <div>{ home && <div>{<Homeies/>}</div>}  {projects && <div className='All-projects' >{    data.map((item)=><Projects picture={item.picture} title={item.title} description={item.description} livelink={item.liveLink} sourcecodelink={item.githubLink}/>)}</div>}  {about && <div><About/></div>}  </div>
    
 
    </div>
